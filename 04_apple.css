@@ -24,7 +24,7 @@ html.body {
   cursor: pointer;
 }
 .nav_ul {
-  gap: 35px;
+  /* gap: 35px; */
   gap: 2.2rem;
 }
 .offer {
@@ -35,29 +35,34 @@ html.body {
   background-color: #000000;
 }
 .main_heading {
-  font-size: 50px;
+  /* font-size: 50px; */
+  font-size: 3.2rem;
   font-weight: 700;
 }
 .learn_more {
   text-decoration: none;
   color: white;
-  font-size: 20px;
+  /* font-size: 20px; */
+  font-size: 1.3rem;
   border: 2px solid #0077ed;
   background-color: #0077ed;
-  border-radius: 24px;
-  padding: 7px 20px;
+  border-radius: 1.5rem;
+  /* padding: 7px 20px; */
+  padding: 0.438rem 1.25rem;
 }
 .buy {
   text-decoration: none;
   color: #0077ed;
-  font-size: 20px;
+  /* font-size: 20px; */
+  font-size: 1.3rem;
   border: 2px solid #0077ed;
-  border-radius: 24px;
-  padding: 7px 20px;
+  border-radius: 1.5rem;
+  padding: 0.438rem 1.25rem;
 }
 
 .iphone_15pro {
-  width: 700px;
+  /* width: 700px; */
+  width: 43.75rem;
   height: 50vh;
   /* border: 2px solid red; */
 }
@@ -67,29 +72,32 @@ html.body {
 }
 .section_02_main_heading {
   color: black;
-  font-size: 50px;
+  /* font-size: 50px; */
+  font-size: 3.2rem;
   font-weight: 700;
 }
 .section_02_second_heading {
-  /* color: black; */
   color: #59595b;
 }
 .section_02_iphone_15pro {
   /* border: 2px solid red; */
-  width: 1300px;
-  height: 350px;
+  /* width: 1300px;
+  height: 350px; */
+  width: 81.25rem;
+  height: 21.875rem;
 }
 .mac_ads {
   width: 850px;
-  /* width: 900px; */
+  width: 53.125rem;
 }
 .shop {
   /* color: #0077ed; */
   color: blue;
-  font-size: 20px;
+  font-size: 1.25rem;
   border: 2px solid #0077ed;
-  border-radius: 24px;
-  padding: 7px 20px;
+  border-radius: 1.5rem;
+  padding: 0.438rem 1.25rem;
+  /* padding: 7px 20px; */
 }
 .section_03 {
   background-color: #f5f5f7;
@@ -103,33 +111,40 @@ html.body {
   background-color: transparent;
 }
 .ipad {
-  font-size: 30px;
+  /* font-size: 30px; */
+  font-size: 1.875rem;
   font-weight: 700;
   color: white;
 }
 .description {
-  font-size: 20px;
+  /* font-size: 20px; */
+  font-size: 1.25rem;
   font-weight: 700;
   color: white;
 }
 .button01 {
   color: white;
-  font-size: 20px;
+  /* font-size: 20px; */
+  font-size: 1.25rem;
   border: 2px solid #0077ed;
   background-color: #0077ed;
-  border-radius: 24px;
-  padding: 6px 16px;
+  border-radius: 1.5rem;
+  /* padding: 6px 16px; */
+  padding: 0.438rem 1.25rem;
 }
 .button02 {
   color: blue;
-  font-size: 20px;
+  /* font-size: 20px; */
+  font-size: 1.25rem;
   border: 2px solid #0077ed;
   background-color: transparent;
-  border-radius: 24px;
-  padding: 6px 20px;
+  border-radius: 1.5rem;
+  /* padding: 6px 20px; */
+  padding: 0.438rem 1.25rem;
 }
 .ipad_image {
-  width: 617px;
+  /* width: 617px; */
+  width: 38.563rem;
 }
 .section_04_main_box_02 {
   background-color: #f5f5f7;
@@ -143,16 +158,18 @@ html.body {
   /* border: 2px solid red; */
 }
 .mac_air3 {
-  font-size: 30px;
+  /* font-size: 30px; */
+  font-size: 1.875rem;
   font-weight: 700;
 }
 .description02 {
-  font-size: 20px;
+  /* font-size: 20px; */
+  font-size: 1.25rem;
   font-weight: 700;
 }
 
 .mac_air3_image {
-  width: 630px;
+  width: 39.375rem;
 }
 /* section -5  */
 
@@ -161,42 +178,41 @@ html.body {
 }
 
 .watch_head {
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 700;
   color: white;
 }
 .watch_description {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
   color: white;
 }
 .watch_iamge {
-  width: 714px;
-  /* border: -inner 2px solid black; */
+  width: 44.625rem;
 }
 
 .section_05_main_box_02 {
   background-color: #f5f5f7;
 }
 .section_05_card_02 {
-  padding-top: 42px;
+  padding-top: 2.625;
 }
 .Intelligence {
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 700;
   color: black;
 }
 .ai {
-  font-size: 20px;
+  font-size: 1.25rem;
   color: grey;
 }
 .Intel_dep {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
   color: black;
 }
 .mobile_image {
-  width: 724px;
+  width: 45.25rem;
 }
 /* section_06 */
 
@@ -204,49 +220,49 @@ html.body {
   background-color: #000000;
 }
 .mobile_feed_head {
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 700;
 }
 .mobile_feed_image {
-  width: 620px;
+  width: 38.75rem;
 }
 
 .section_06_main_box_02 {
   background-color: #f5f5f7;
 }
 .trade_image {
-  width: 723px;
+  width: 45.188rem;
 }
 
 .mobile_feed_description {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 .trade_head {
-  font-size: 33px;
+  font-size: 2.063rem;
   font-weight: 700;
 }
 .trade_description02 {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 .section_7 {
   background-color: #ebebee;
-  padding: 0 40px;
+  padding: 0 2.5rem;
 }
 
 .list_main_container {
-  gap: 55px;
+  gap: 3.438rem;
   /* border: 2px solid red; */
   padding-right: 100px;
 }
 .ul_head {
   color: black;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 600;
   line-height: 1.8;
 }
 
 .ul_head li {
-  font-size: 13px;
+  font-size: 0.813rem;
   list-style: none;
   font-weight: 400;
   color: grey;
@@ -266,8 +282,8 @@ html.body {
 }
 .summary_box {
   width: 70%;
-  font-size: 13px;
-  padding: 10px;
+  font-size: 0.813rem;
+  padding: 0.625rem;
   border-bottom: 1px solid grey;
 }
 .summary_box p {
@@ -276,23 +292,23 @@ html.body {
 }
 .Contact {
   width: 70%;
-  font-size: 13px;
+  font-size: 0.813rem;
   color: grey;
   border-bottom: 1px solid grey;
 }
 .policy_section {
   /* border: 2px solid black; */
   width: 70%;
-  gap: 10px;
-  font-size: 13px;
+  gap: 0.625rem;
+  font-size: 0.813rem;
   color: grey;
 }
 .india {
   position: absolute;
-  bottom: -4795px;
-  right: 258px;
+  bottom: -299.688rem;
+  right: 16.125rem;
   color: grey;
-  font-size: 15px;
+  font-size: 0.938rem;
   /* border: 2px solid black;
   padding-left: 500px; */
 }
