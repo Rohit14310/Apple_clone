@@ -8,11 +8,6 @@ html.body {
   width: 100%;
 }
 
-.nav_main_box {
-  background-color: #454545;
-  position: relative;
-  /* border: 2px solid red; */
-}
 .nav_bar {
   /* background-color: #454545; */
   background-color: rgba(128, 128, 128, 0.801);
@@ -30,6 +25,7 @@ html.body {
 }
 .nav_ul {
   gap: 35px;
+  gap: 2.2rem;
 }
 .offer {
   background-color: #1d1d1f;
