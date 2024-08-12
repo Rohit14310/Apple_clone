@@ -1,0 +1,302 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html.body {
+  height: 100%;
+  width: 100%;
+}
+
+.nav_main_box {
+  background-color: #454545;
+  position: relative;
+  /* border: 2px solid red; */
+}
+.nav_bar {
+  /* background-color: #454545; */
+  background-color: rgba(128, 128, 128, 0.801);
+  position: fixed;
+  backdrop-filter: blur(2px);
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+}
+.nav_bar li {
+  list-style: none;
+  /* color: white; */
+  color: #d6d6e1;
+  cursor: pointer;
+}
+.nav_ul {
+  gap: 35px;
+}
+.offer {
+  background-color: #1d1d1f;
+  padding-top: 60px;
+}
+.section_01 {
+  background-color: #000000;
+}
+.main_heading {
+  font-size: 50px;
+  font-weight: 700;
+}
+.learn_more {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  border: 2px solid #0077ed;
+  background-color: #0077ed;
+  border-radius: 24px;
+  padding: 7px 20px;
+}
+.buy {
+  text-decoration: none;
+  color: #0077ed;
+  font-size: 20px;
+  border: 2px solid #0077ed;
+  border-radius: 24px;
+  padding: 7px 20px;
+}
+
+.iphone_15pro {
+  width: 700px;
+  height: 50vh;
+  /* border: 2px solid red; */
+}
+
+.section_02 {
+  background-color: #f5f5f7;
+}
+.section_02_main_heading {
+  color: black;
+  font-size: 50px;
+  font-weight: 700;
+}
+.section_02_second_heading {
+  /* color: black; */
+  color: #59595b;
+}
+.section_02_iphone_15pro {
+  /* border: 2px solid red; */
+  width: 1300px;
+  height: 350px;
+}
+.mac_ads {
+  width: 850px;
+  /* width: 900px; */
+}
+.shop {
+  /* color: #0077ed; */
+  color: blue;
+  font-size: 20px;
+  border: 2px solid #0077ed;
+  border-radius: 24px;
+  padding: 7px 20px;
+}
+.section_03 {
+  background-color: #f5f5f7;
+}
+.section_04_main_box_01 {
+  background-color: #000000;
+}
+.section_04_card_01 {
+  /* border: 2px solid red; */
+  text-align: center;
+  background-color: transparent;
+}
+.ipad {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+}
+.description {
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+}
+.button01 {
+  color: white;
+  font-size: 20px;
+  border: 2px solid #0077ed;
+  background-color: #0077ed;
+  border-radius: 24px;
+  padding: 6px 16px;
+}
+.button02 {
+  color: blue;
+  font-size: 20px;
+  border: 2px solid #0077ed;
+  background-color: transparent;
+  border-radius: 24px;
+  padding: 6px 20px;
+}
+.ipad_image {
+  width: 617px;
+}
+.section_04_main_box_02 {
+  background-color: #f5f5f7;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+}
+.section_04_card_02 {
+  text-align: center;
+  background-color: #f5f5f7;
+  /* border: 2px solid red; */
+}
+.mac_air3 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.description02 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.mac_air3_image {
+  width: 630px;
+}
+/* section -5  */
+
+.section_05_main_box_01 {
+  background-color: #000000;
+}
+
+.watch_head {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+}
+.watch_description {
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+}
+.watch_iamge {
+  width: 714px;
+  /* border: -inner 2px solid black; */
+}
+
+.section_05_main_box_02 {
+  background-color: #f5f5f7;
+}
+.section_05_card_02 {
+  padding-top: 42px;
+}
+.Intelligence {
+  font-size: 30px;
+  font-weight: 700;
+  color: black;
+}
+.ai {
+  font-size: 20px;
+  color: grey;
+}
+.Intel_dep {
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+}
+.mobile_image {
+  width: 724px;
+}
+/* section_06 */
+
+.section_06_main_box_01 {
+  background-color: #000000;
+}
+.mobile_feed_head {
+  font-size: 30px;
+  font-weight: 700;
+}
+.mobile_feed_image {
+  width: 620px;
+}
+
+.section_06_main_box_02 {
+  background-color: #f5f5f7;
+}
+.trade_image {
+  width: 723px;
+}
+
+.mobile_feed_description {
+  font-size: 20px;
+}
+.trade_head {
+  font-size: 33px;
+  font-weight: 700;
+}
+.trade_description02 {
+  font-size: 20px;
+}
+.section_7 {
+  background-color: #ebebee;
+  padding: 0 40px;
+}
+
+.list_main_container {
+  gap: 55px;
+  /* border: 2px solid red; */
+  padding-right: 100px;
+}
+.ul_head {
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.8;
+}
+
+.ul_head li {
+  font-size: 13px;
+  list-style: none;
+  font-weight: 400;
+  color: grey;
+}
+
+.ul_head a {
+  text-decoration: none;
+  color: grey;
+}
+
+.footer {
+  background-color: #f5f5f7;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.summary_box {
+  width: 70%;
+  font-size: 13px;
+  padding: 10px;
+  border-bottom: 1px solid grey;
+}
+.summary_box p {
+  line-height: 1.2;
+  color: grey;
+}
+.Contact {
+  width: 70%;
+  font-size: 13px;
+  color: grey;
+  border-bottom: 1px solid grey;
+}
+.policy_section {
+  /* border: 2px solid black; */
+  width: 70%;
+  gap: 10px;
+  font-size: 13px;
+  color: grey;
+}
+.india {
+  position: absolute;
+  bottom: -4795px;
+  right: 258px;
+  color: grey;
+  font-size: 15px;
+  /* border: 2px solid black;
+  padding-left: 500px; */
+}
