@@ -15,52 +15,78 @@
       href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <div class="main_div">
       <div class="main_container border border-dark">
-        <nav class="nav_bar">
-          <ul
-            class="nav_ul d-flex justify-content-center align-items-center pt-2"
-          >
-            <li>
-              <i class="ri-apple-line"></i>
-            </li>
-            <li>Store</li>
-            <li>Mac</li>
-            <li>iPad</li>
-            <li>iPhone</li>
-            <li>Watch</li>
-            <li>Vision</li>
-            <li>AirPods</li>
-            <li>TV & Home</li>
-            <li>Entertainment</li>
-            <li>Accessories</li>
-            <li>Support</li>
-            <li><i class="ri-search-line"></i></li>
-            <li><i class="ri-shopping-bag-line"></i></li>
-          </ul>
-        </nav>
+        <div class="nav_container">
+          <nav class="nav_bar1">
+            <ul
+              class="nav_ul d-flex justify-content-center align-items-center pt-2"
+            >
+              <li>
+                <i
+                  class="fa fa-apple"
+                  style="font-size: 28px; color: white"
+                ></i>
+              </li>
+              <li class="nav-item">Store</li>
+              <li class="nav-item">Mac</li>
+              <li class="nav-item">iPad</li>
+              <li class="nav-item">iPhone</li>
+              <li class="nav-item">Watch</li>
+              <li class="nav-item">Vision</li>
+              <li class="nav-item">AirPods</li>
+              <li class="nav-item">TV & Home</li>
+              <li class="nav-item">Entertainment</li>
+              <li class="nav-item">Accessories</li>
+              <li class="nav-item">Support</li>
+              <li><i class="ri-search-line"></i></li>
+              <li><i class="ri-shopping-bag-line"></i></li>
+            </ul>
+          </nav>
+
+          <nav class="nav_bar2">
+            <ul class="nav_ul">
+              <li class="list_item">
+                <!-- <i class="ri-apple-line icon_apple"></i> -->
+                <i
+                  class="fa fa-apple"
+                  style="font-size: 35px; color: white"
+                ></i>
+              </li>
+            </ul>
+            <ul class="nav_ul2">
+              <li class="list_item"><i class="ri-search-line"></i></li>
+              <li class="list_item"><i class="ri-shopping-bag-line"></i></li>
+              <li class="list_item"><i class="ri-equal-line"></i></li>
+            </ul>
+          </nav>
+        </div>
 
         <div class="offer d-flex justify-content-center gap-1">
           <p class="text-white">
             Get up to ₹8000.00 instant cashback on selected products with
             eligible American Express, Axis Bank and ICICI Bank cards.‡
+            <a href="https://www.apple.com/in/store">Shop</a>
           </p>
-          <a href="https://www.apple.com/in/store">Shop</a>
         </div>
         <div
           class="section_01 d-flex flex-column align-items-center text-center"
         >
-          <div class="text-white pt-5">
-            <h1 class="main_heading">iPhone 15 Pro</h1>
-            <h2 class="second_heading pb-3">
+          <div class="section_01_box1 text-white pt-5">
+            <h1 class="main_heading smhead">iPhone 15 Pro</h1>
+            <h2 class="second_heading pb-3 smhead2">
               Titanium.So strong.So light.So Pro
             </h2>
-            <a class="learn_more" href="https://www.apple.com/in/"
+            <a class="learn_more button01" href="https://www.apple.com/in/"
               >Learn more</a
             >
-            <a class="buy" href="https://www.apple.com/in/">Buy</a>
+            <a class="buy button02" href="https://www.apple.com/in/">Buy</a>
           </div>
           <img
             class="iphone_15pro"
@@ -72,16 +98,16 @@
         <div
           class="section_02 d-flex flex-column align-items-center text-center mt-3 mb-3"
         >
-          <div class="text-white pt-5 mb-2">
-            <h2 class="section_02_main_heading">iPhone 15 Pro</h2>
-            <h2 class="section_02_second_heading pb-3">
+          <div class="section_02_container text-white pt-5 mb-2">
+            <h2 class="section_02_main_heading smhead">iPhone 15 Pro</h2>
+            <h2 class="section_02_second_heading pb-3 smhead2">
               New camera.New design.Newphoria
             </h2>
 
-            <a class="learn_more" href="https://www.apple.com/in/"
+            <a class="learn_more button01" href="https://www.apple.com/in/"
               >Learn more</a
             >
-            <a class="buy" href="https://www.apple.com/in/">Buy</a>
+            <a class="buy button02" href="https://www.apple.com/in/">Buy</a>
           </div>
           <img
             class="section_02_iphone_15pro"
@@ -90,7 +116,7 @@
           />
         </div>
 
-        <div class="section_03 p-5 mb-3">
+        <div class="section_03 p-xxl-5 mb-3">
           <div
             class="section_03_box d-flex flex-column align-items-center gap-3"
           >
@@ -105,10 +131,10 @@
         <!-- section-4 -->
 
         <div class="section_04 d-flex justify-content-center gap-3">
-          <div class="section_04_main_box_01 p-5">
+          <div class="section_04_main_box_01 p-xxl-5">
             <div class="section_04_card_01 mb-4">
-              <h2 class="ipad">iPad Pro</h2>
-              <h2 class="description">
+              <h2 class="ipad smhead">iPad Pro</h2>
+              <h2 class="description smhead2">
                 Unbelievably thin.Incredibly powerful.
               </h2>
               <button class="button01">Learn more</button>
@@ -120,10 +146,10 @@
               alt="ipad"
             />
           </div>
-          <div class="section_04_main_box_02 p-5">
-            <div class="section_04_card_02 mb-4">
-              <h2 class="mac_air3">MacBook Air</h2>
-              <h2 class="description02">Supercharged by M3.</h2>
+          <div class="section_04_main_box_02 p-xxl-5">
+            <div class="section_04_card_02 mb-5">
+              <h2 class="mac_air3 smhead">MacBook Air</h2>
+              <h2 class="description02 smhead2">Supercharged by M3.</h2>
               <button class="button01">Learn more</button>
               <button class="button02">Buy</button>
             </div>
@@ -140,12 +166,15 @@
         <div
           class="section_05 d-flex justify-content-center gap-3 mt-3 text-center"
         >
+          <!-- (main box of section 5) -->
           <div class="section_05_main_box_01">
-            <div class="section_05_card_01 mb-4 pt-5 text-white">
+            <div class="section_05_card_01 mb-4 pt-xxl-5 text-white">
               <!-- border red , border border-danger -->
-              <h2 class="watch_head">WATCH</h2>
-              <span class="watch_series text-danger">SERIES 9</span>
-              <h2 class="watch_description mb-3">Smarter.Brighter.Mightier.</h2>
+              <h2 class="watch_head smhead">WATCH</h2>
+              <span class="watch_series text-danger smhead3">SERIES 9</span>
+              <h2 class="watch_description mb-3 smhead2">
+                Smarter.Brighter.Mightier.
+              </h2>
               <button class="button01">Learn more</button>
               <button class="button02">Buy</button>
             </div>
@@ -156,10 +185,10 @@
             />
           </div>
           <div class="section_05_main_box_02">
-            <div class="section_05_card_02 mb-4">
-              <h2 class="Intelligence">Apple Intelligence</h2>
-              <span class="ai">AI for the rest of us.</span>
-              <h2 class="Intel_dep mb-3">Supercharged by M3.</h2>
+            <div class="section_05_card_02 mb-4 pt-xxl-5">
+              <h2 class="Intelligence smhead">Apple Intelligence</h2>
+              <span class="ai smhead3">AI for the rest of us.</span>
+              <h2 class="Intel_dep mb-3 smhead2">Supercharged by M3.</h2>
               <button class="button01">Learn more</button>
               <button class="button02">Watch the film</button>
             </div>
@@ -176,10 +205,10 @@
         <div
           class="section_06 d-flex justify-content-center gap-3 mt-3 text-center"
         >
-          <div class="section_06_main_box_01 p-5">
+          <div class="section_06_main_box_01 p-xxl-5">
             <div class="section_06_card_01 mb-4 text-white">
-              <h2 class="mobile_feed_head mb-2">Apple at Work</h2>
-              <h2 class="mobile_feed_description mb-4">
+              <h2 class="mobile_feed_head mb-2 smhead">Apple at Work</h2>
+              <h2 class="mobile_feed_description mb-4 smhead2">
                 Work.Like never before.
               </h2>
               <button class="button01">Learn more</button>
@@ -191,10 +220,10 @@
               alt="apple_work"
             />
           </div>
-          <div class="section_06_main_box_02 pt-5">
+          <div class="section_06_main_box_02 pt-xxl-5">
             <div class="section_06_card_02 mb-4">
-              <h2 class="trade_head">Trade In</h2>
-              <h2 class="trade_description02 mb-4">
+              <h2 class="trade_head smhead">Trade In</h2>
+              <h2 class="trade_description02 mb-4 smhead2">
                 Upgrade and save. It's that easy
               </h2>
               <button class="button01">Get your estimate</button>
@@ -284,7 +313,7 @@
                 <img src="pics/slide7.jpg" class="d-block w-100" alt="slide7" />
               </div>
             </div>
-            <button
+            <!-- <button
               class="carousel-control-prev"
               type="button"
               data-bs-target="#carouselExampleIndicators"
@@ -307,7 +336,7 @@
                 aria-hidden="true"
               ></span>
               <span class="visually-hidden">Next</span>
-            </button>
+            </button> -->
           </div>
         </div>
 
@@ -355,7 +384,7 @@
               <p>A subscription is required for Apple TV+.</p>
             </div>
             <div
-              class="list_main_container d-flex mb-4 justify-content-center mt-3"
+              class="list_main_container d-xxl-flex mb-4 justify-content-center mt-3"
             >
               <div class="list_box1">
                 <ul class="ul_head">
@@ -586,7 +615,7 @@
                 near you. Or call 000800 040 1966.
               </p>
             </div>
-            <div class="policy_section d-flex justify-content-start mt-3">
+            <div class="policy_section d-xxl-flex justify-content-start mt-3">
               <p class="me-3">
                 Copyright © 2024 Apple Inc. All rights reserved.
               </p>
@@ -600,7 +629,27 @@
               <p>|</p>
               <p>Site Map</p>
             </div>
-            <p class="india">India</p>
+            <!-- <p class="india">India</p> -->
+          </footer>
+          <footer class="mobile_footer">
+            <p class="f_link">
+              Shop and Learn <i class="ri-arrow-drop-down-line down_arrow"></i>
+            </p>
+            <p class="f_link">
+              Appke Wallet <i class="ri-arrow-drop-down-line down_arrow"></i>
+            </p>
+            <p class="f_link">
+              Account <i class="ri-arrow-drop-down-line down_arrow"></i>
+            </p>
+            <p class="f_link">
+              Entertainment <i class="ri-arrow-drop-down-line down_arrow"></i>
+            </p>
+            <p class="f_link">
+              Apple Store <i class="ri-arrow-drop-down-line down_arrow"></i>
+            </p>
+            <p class="f_link">
+              For Business <i class="ri-arrow-drop-down-line down_arrow"></i>
+            </p>
           </footer>
         </div>
       </div>
